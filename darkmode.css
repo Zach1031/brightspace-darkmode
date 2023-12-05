@@ -1,0 +1,57 @@
+:root {
+  --background-grey: #121212;
+  --foreground-grey: #282828;
+  --text-purple: #CDBDFA;
+  --text-grey: #787878;
+}
+
+d2l-navigation-main-header {
+  background-color: var(--background-grey);
+}
+
+d2l-navigation-main-footer {
+  background-color: var(--foreground-grey) !important;
+}
+
+.d2l-navigation-s-personal-menu-text {
+  color: #FFFFFF;
+}
+
+a {
+  color: #FFFFFF;
+}
+
+.evalkit-list-item {
+  color: var(--text-grey);
+}
+
+.d2l-body {
+  background-color: var(--background-grey);
+}
+
+.d2l-page-main-padding {
+  background-color: var(--background-grey);
+}
+
+
+.d2l-navigation-s-link {
+  color: #FFFFFF !important;
+} 
+
+.d2l-widget {
+  background-color: var(--foreground-grey);
+}
+
+.d2l-card-container .d2l-card-link-container {
+  background-color: var(--foreground-grey) !important;
+}
+
+.d2l-inline {
+ color: #FFFFFF !important; 
+}
+
+
+.d2l-heading, .d2l-tab-text, .d2l-texblock, .d2l-skeletize {
+ color: var(--text-grey) !important; 
+}
+

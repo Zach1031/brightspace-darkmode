@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Darkmode Brightspace",
+  "version": "1.0",
+
+  "description": "Adds a dark mode theme to Brightspace",
+
+  "content_scripts": [
+    {
+      "matches": ["*://purdue.brightspace.com/*"],
+      "js": ["darkmode.js"],
+      "css": ["darkmode.css"]
+    }
+  ]
+}
