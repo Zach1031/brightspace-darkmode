@@ -1,17 +1,15 @@
-var checkExist = setInterval(function() {
+var logoSrc = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Purdue_Boilermakers_primary_mark_color_on-black.svg/2560px-Purdue_Boilermakers_primary_mark_color_on-black.svg.png";
+  
 
-   //if (document.getElementsByClassName(".d2l-inline")) {
-  console.log(document.getElementsByClassName('.d2l-navigation-link-image-container'));
+var test = document.querySelector('d2l-navigation-main-header');
+  var test2 = test.querySelector('.d2l-navigation-header-left');
+  var test3 = test2.querySelector('.d2l-navigation-s-header-logo-area');
+  var test4 = test3.querySelector('d2l-navigation-link-image');
+  let logo = new Image();
+  logo.src = logoSrc;
+  logo.classList.add('logo');
+  if (test4 != null)
+    test4.remove();
+  //test3.appendChild(logo);
+  test3.insertBefore(logo, test3.querySelector('d2l-navigation-separator').nextSibling);
 
-    if (document.querySelector('img[src="/d2l/lp/navbars/6824/theme/viewimage/270925/view?v=20.23.11.19491"]')) {
-    var el1 = document.getElementsByClassName(".d2l-inline");
-    console.log(el1);
-    
-    var el2 = document.querySelector('img[src="/d2l/lp/navbars/6824/theme/viewimage/270925/view?v=20.23.11.19491"]');
-
-    console.log("El2", el2);
-    
-
-
-   }
-}, 100);

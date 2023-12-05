@@ -9,6 +9,19 @@ d2l-navigation-main-header {
   background-color: var(--background-grey);
 }
 
+.d2l-navigation-separator {
+  margin: 0px, -1px !important;
+}
+
+.logo {
+  height: 30%;
+  width: 30%;
+  object-fit: contain;
+  padding: -10;
+  margin: 0;
+  border: 0;
+}
+
 d2l-navigation-main-footer {
   background-color: var(--foreground-grey) !important;
 }
@@ -28,6 +41,7 @@ a {
 .d2l-body {
   background-color: var(--background-grey);
 }
+
 
 .d2l-page-main-padding {
   background-color: var(--background-grey);
