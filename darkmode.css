@@ -5,8 +5,58 @@
   --text-grey: #787878;
 }
 
+:host {
+  color: #FFFFFF !important;
+}
+
 d2l-navigation-main-header {
   background-color: var(--background-grey);
+}
+
+.ek-modal-content {
+  background-color: var(--foreground-grey);
+  color: #FFFFFF;
+}
+
+p, h2, h3 {
+  color: #FFFFFF !important;
+}
+
+:host(p, h2, h3) {
+  color: #FFFFFF !important;
+}
+
+
+:host {
+  color: var(--text-purple);
+}
+
+a { 
+  color: var(--text-purple);
+}
+
+a:hover { 
+  color: var(--text-purple);
+
+}
+
+:host(.d2l-enrollment-card) {
+  color: var(--foreground-grey);
+}
+
+d2l-dropdown-content > * {
+  background-color: var(--foreground-grey);
+}
+.d2l-textblock {
+  color: #FFFFFF;
+}
+
+.d2l-link {
+  color: var(--text-purple) !important;
+}
+
+:host(.d2l-dropdown-content-top) {
+  color: var(--background-grey);
 }
 
 .d2l-navigation-separator {
