@@ -8,7 +8,7 @@
   "content_scripts": [
     {
       "matches": ["*://purdue.brightspace.com/*"],
-      "js": ["darkmode.js"],
+      "js": ["darkmode.js", "test.js"],
       "css": ["darkmode.css"]
     }
   ]

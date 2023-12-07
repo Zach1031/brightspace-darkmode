@@ -2,7 +2,11 @@
   --background-grey: #121212;
   --foreground-grey: #282828;
   --text-purple: #CDBDFA;
+  --text-dark-purple: #9D8DFA;
   --text-grey: #787878;
+  --text-light-grey: #A0A0A0;
+
+  background-color: var(--background-grey);
 }
 
 :host {
@@ -27,22 +31,44 @@ p, h2, h3 {
 }
 
 
-:host {
-  color: var(--text-purple);
+:host(.d2l-card-container) {
+  color: #FABCAB;
+}
+
+
+/* BEGIN CONTENT BUTTONS */
+.d2l-iterator-button {
+  background-color: var(--foreground-grey);
+  border-color: #000000;
+}
+
+d2l-icon {
+  color: #FFFFFF;
+}
+/* END CONTENT BUTTONS */
+
+:host(p) {
+  color: #FFFFFF;
 }
 
 a { 
   color: var(--text-purple);
 }
 
-a:hover { 
+a:visited { 
   color: var(--text-purple);
 
+}
+
+.d2l-box {
+  color: var(--foreground-grey);
 }
 
 :host(.d2l-enrollment-card) {
   color: var(--foreground-grey);
 }
+
+
 
 d2l-dropdown-content > * {
   background-color: var(--foreground-grey);
@@ -119,3 +145,27 @@ a {
  color: var(--text-grey) !important; 
 }
 
+
+tr, th, td {
+  background-color: var(--foreground-grey);
+}
+
+table {
+  color: var(--foreground-grey);
+}
+
+.d2l-tool-actions {
+  color: var(--foreground-grey);
+}
+
+label, span {
+  color: var(--text-light-grey) !important; 
+}
+
+label span {
+  color: var(--text-light-grey) !important; 
+}
+
+body {
+  background-color: var(--background-grey) !important;
+}
